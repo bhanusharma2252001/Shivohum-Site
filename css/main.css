@@ -1,0 +1,122 @@
+body{
+        text-align: center;
+    margin-right: 0;
+}
+/* Naviagation Bar*/
+#nav-bar{
+    color:white;
+    width: 100% ;
+    
+
+}
+.navbar{
+    padding:0;
+}
+.Join-btn{
+    width: 15%;
+    margin-right: 2%;
+
+}
+.logo{
+    height: 70px;
+    width: 100px;
+     
+}
+@media only screen and (max-width:930px)
+{
+    .Join-btn
+    {
+        position: absolute;
+        left:250px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+    
+    .Join-btn
+    {
+        position: absolute;
+        left:120px;
+        width: 30%;
+    }
+      
+     .carousel-inner
+     {
+         height:250px;
+     }
+}
+
+/* carousel styling */
+
+.carousel-img
+{
+    height: 400px;
+}
+
+.Join-btn1{
+    width: 20%;
+}
+
+/*about Styling*/
+#about{
+    background-color:#ccf6c8;
+    padding:2% 4% 4% 2%;
+}
+
+/*Service Styling*/
+#service{
+    background-color: #ccf6c8;
+    
+
+
+}
+.service-heading{
+    padding:30px 0px 30px 0px;
+    margin-left:4%;
+    margin-right:4%;
+    margin-bottom: 3%;
+    background-color: #065c6f;
+     border-radius: 2%;
+     color:white;
+     text-align: left;
+}
+
+.s-icon{
+    color:red;
+    margin-left:10%;
+}
+h2{
+margin-bottom:5%;
+}
+
+.s-h3{
+    margin-left: 10%;
+}
+
+
+/* Footer Styling*/
+#footer{
+    background-color: #065c6f;
+    text-align: left;
+    color:white;
+    padding:50px;
+}
+.social-img{
+    height: 15%;
+    width:15%;
+}
+.copy{
+    text-align: center;
+    background-color: wheat;
+    padding:2%;
+} 
+
+.icons{
+    padding-left:2%;
+}
+
+.service-h2{
+    color:white;
+}
